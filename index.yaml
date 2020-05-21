@@ -3,10 +3,10 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.32.0
-    created: 2020-05-20T16:56:35.557324403Z
-    description: An nginx Ingress controller that uses ConfigMap to store the nginx
+    created: 2020-05-20T23:57:51.867196718Z
+    description: An nginx Ingress controller that uses ConfigMap to store the nginx created by me
       configuration.
-    digest: 4fac437108ea74817fd557a2d5bbe10a42555077e93930abe2c679f0b1de7ad1
+    digest: d83d9e366c62543c02abdce6892e3924c0643bc272c814e35e2dd871a39802d3
     engine: gotpl
     home: https://github.com/kubernetes/ingress-nginx
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
@@ -24,4 +24,4 @@ entries:
     urls:
     - nginx-ingress-1.37.0.tgz
     version: 1.37.0
-generated: 2020-05-20T16:56:35.553829197Z
+generated: 2020-05-20T23:57:51.864401346Z
