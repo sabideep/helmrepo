@@ -24,4 +24,29 @@ entries:
     urls:
     - nginx-ingress-1.37.0.tgz
     version: 1.37.0
+entries:
+  wordpress:
+  - apiVersion: v1
+    appVersion: 6.3.2
+    created: 2020-05-22T03:28:03.155928075Z
+    deprecated: true
+    description: Dployed by me.
+    digest: 9f1792a4854ed8c8d2205851d63a9432685992e40271c060fe0c864cbf0533f2
+    engine: gotpl
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
+    keywords:
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
+    sources:
+    - https://github.com/bitnami/bitnami-docker-wordpress
+    urls:
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
 generated: 2020-05-22T03:27:38.949510299Z
