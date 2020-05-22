@@ -3,7 +3,7 @@ entries:
   nginx-ingress:
   - apiVersion: v1
     appVersion: 0.32.0
-    created: 2020-05-22T03:22:22.419081262Z
+    created: 2020-05-22T03:27:38.953143286Z
     description: An nginx Ingress controller that uses ConfigMap to store the nginx
       configuration.
     digest: 617dedcb200ff2da61b131b0e545d06629e942d5445349ce493ef340b78a5e81
@@ -24,4 +24,4 @@ entries:
     urls:
     - nginx-ingress-1.37.0.tgz
     version: 1.37.0
-generated: 2020-05-22T03:22:22.417408046Z
+generated: 2020-05-22T03:27:38.949510299Z
