@@ -22,7 +22,7 @@ entries:
     sources:
     - https://github.com/kubernetes/ingress-nginx
     urls:
-    - nginx-ingress/nginx-ingress-1.37.0.tgz
+    - https://github.com/sabideep/helmrepo/blob/master/nginx-ingress/nginx-ingress-1.37.0.tgz
     version: 1.37.0
 entries:
   wordpress:
@@ -47,6 +47,6 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-wordpress
     urls:
-    - wordpress/wordpress-9.0.3.tgz
+    - https://github.com/sabideep/helmrepo/blob/master/wordpress/wordpress-9.0.3.tgz
     version: 9.0.3
 generated: 2020-05-22T03:27:38.949510299Z
