@@ -24,7 +24,6 @@ entries:
     urls:
     - https://github.com/sabideep/helmrepo/blob/master/nginx-ingress/nginx-ingress-1.37.0.tgz
     version: 1.37.0
-entries:
   wordpress:
   - apiVersion: v1
     appVersion: 6.3.2
