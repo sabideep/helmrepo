@@ -1,27 +1,27 @@
 apiVersion: v1
 entries:
-  nginx-ingress:
+  wordpress:
   - apiVersion: v1
-    appVersion: 0.32.0
-    created: 2020-05-20T23:57:51.867196718Z
-    description: An nginx Ingress controller that uses ConfigMap to store the nginx created by me
-      configuration.
-    digest: d83d9e366c62543c02abdce6892e3924c0643bc272c814e35e2dd871a39802d3
+    appVersion: 6.3.2
+    created: 2020-05-22T02:56:10.857817551Z
+    deprecated: true
+    description: Dployed by me.
+    digest: 9f1792a4854ed8c8d2205851d63a9432685992e40271c060fe0c864cbf0533f2
     engine: gotpl
-    home: https://github.com/kubernetes/ingress-nginx
-    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    home: http://www.wordpress.com/
+    icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
-    - ingress
-    - nginx
-    kubeVersion: '>=1.10.0-0'
-    maintainers:
-    - name: ChiefAlexander
-    - email: Trevor.G.Wood@gmail.com
-      name: taharah
-    name: nginx-ingress
+    - wordpress
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    name: wordpress
     sources:
-    - https://github.com/kubernetes/ingress-nginx
+    - https://github.com/bitnami/bitnami-docker-wordpress
     urls:
-    - nginx-ingress-1.37.0.tgz
-    version: 1.37.0
-generated: 2020-05-20T23:57:51.864401346Z
+    - wordpress-9.0.3.tgz
+    version: 9.0.3
+generated: 2020-05-22T02:56:10.852542439Z
